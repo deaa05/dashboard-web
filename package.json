@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://deaa05.github.io/dashboard",
+  "homepage": "https://deaa05.github.io/dashboard-web/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
