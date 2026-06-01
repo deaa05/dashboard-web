@@ -1,9 +1,9 @@
 {
-  "name": "dashboard-web",
+  "name": "dashboard",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://deaa05.github.io/dashboard-web/",
+  "homepage": "https://deaa05.github.io/dashboard/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
