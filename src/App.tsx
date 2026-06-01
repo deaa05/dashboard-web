@@ -1,7 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+//import { useState } from 'react'
+//import reactLogo from './assets/react.svg'
+//import viteLogo from './assets/vite.svg'
+//mport heroImg from './assets/hero.png'
 import { Grid } from '@mui/material';
 import HeaderUI from './components/HeaderUI';
 import AlertUI from './components/AlertUI';
@@ -9,14 +9,14 @@ import './App.css'
 
 function App() {
     return (
-        <Grid container spacing={5} justifyContent="center" alignItems="center">
+      <Grid container spacing={5} sx={{ justifyContent: 'center', alignItems: 'center' }}>
          {/* Encabezado */}
          <Grid  size={{ xs: 12, md: 12 }}>
            <HeaderUI />
          </Grid>
 
          {/* Alertas */}
-         <Grid size={{ xs: 12, md: 12 }}container justifyContent="center" alignItems="center">
+         <Grid container size={{ xs: 12, md: 12 }} sx={{ justifyContent: 'center', alignItems: 'center' }}>
            <AlertUI description="Esta es una alerta de ejemplo." />
          </Grid>
 
